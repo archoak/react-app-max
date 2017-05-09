@@ -1,0 +1,81 @@
+html{
+  font-size: 16px;
+}
+
+/*header组件*/
+#mobileheader{
+  flex: 1;/*使得内部子元素 的宽度一样， 忽略内部的内容*/
+  background: #f6f6f6;
+}
+#mobileheader header{
+  border-bottom: 1px solid #2db7f5;
+  padding-left: 10px;
+  position: relative;
+  padding-bottom: 5px;
+}
+#mobileheader header img{
+  height: 40px;
+}
+#mobileheader header span{
+  font-size: 30px;
+  vertical-align: top;
+  padding-left: 5px;
+  color: #2db7f5;
+  margin-top: 8px;
+}
+#mobileheader i{
+  font-size: 1.7rem;
+  position: absolute;
+  top:.7rem;
+  right:1rem;
+  color:#2db7f5;
+}
+#mobileheader ul li{
+  font-size: 30px;
+}
+#mobileheader .slick-list img{
+  height: 220px;
+  width:100%;
+}
+
+/*news_block组件*/
+.m_article{font-size:14px;padding:0.1rem .5rem;border-bottom:1px solid #e5e5e5}
+.m_article .m_article_img{float:left;width:27.2%;height:4.5rem;overflow:hidden;position:relative;margin-right:.8rem}
+.m_article .m_article_img img{width:100%;display:block;min-height:1.4rem}
+.m_article .m_article_desc .m_article_channel{display:inline-block;color:rgba(255,51,51,0.9);font-size:12px;padding:2px;line-height:12px;margin-right:.65rem;background:url(http://img2.cache.netease.com/f2e/wap/common/images/border_red.png) no-repeat;background-size:100% 100%}
+.m_article .m_article_desc .m_article_time{font-size:.82rem;color:#888;display:inline-block}
+.m_article .m_article_desc .m_article_desc_l{float:left}
+.m_article .m_article_info{overflow:hidden}
+.m_article .m_article_info .m_article_title{text-align: left;font-size:1.05rem;margin-bottom:.2rem;color:#404040;line-height:1.46rem;width:100%;display:-webkit-box;-webkit-line-clamp:2;overflow:hidden;-webkit-line-break:auto;-webkit-box-orient:vertical}
+
+/*news_detail组件*/
+#mobileDetailsContainer .title,.article-title .title {
+  font-size: 1.1rem !important;
+  line-height: 1.4em
+}
+#mobileDetailsContainer .article-src-time {
+  font-size: 0.3rem !important;
+}
+#mobileDetailsContainer .article-content .txt {
+  font-size: 0.36rem;
+}
+#mobileDetailsContainer .ant-row{
+  margin-top: 20px;
+}
+.article-content .img .img-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 13rem;
+  background-size: 40%
+}
+#content {
+  margin: .35rem 16px .35rem
+}
+.article-content .img .img-wrap img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%
+}

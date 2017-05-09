@@ -1,0 +1,49 @@
+
+.leftWrapper{
+    margin-top: 14px;
+}
+.subWrapper{
+    margin-top: 12px;
+    width:400px;
+    float: left;
+}
+.carouselWrapper{
+    margin-bottom: 10px;
+}
+.carouselWrapper img{
+    width:100% ;
+    height:265px ;
+}
+.news_tab{
+    float: left;
+    width:434px;
+    margin-left: 10px;
+}
+.news_tab a{
+    display: block;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:#666;
+    margin-bottom: 4px;
+}
+.news_relative{
+    width:280px;
+    float: left;
+    padding-left:10px;
+}
+.rela_bg{
+    background-color: #efefef;
+    margin-top:10px;
+}
+.rela{
+    padding: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.rela a{
+    float: left ;
+    line-height: 30px;
+    margin-right:5px;
+}

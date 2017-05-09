@@ -1,0 +1,14 @@
+.imgNewsWrapper{
+    float: left;
+    margin-right:8px;
+    margin-bottom:10px;
+}
+.imgNewsWrapper h3{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   color:#666;
+ }
+.imgNewsWrapper p{
+  color:#666;
+}
